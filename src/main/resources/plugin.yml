@@ -1,0 +1,11 @@
+name: ${project.name}
+author: aoy
+version: ${project.version}
+main: jp.llv.qs.QuickShulker
+
+commands:
+  shulkerbox:
+    description: show contents of a held shulker box
+    usage: /<command>
+    aliases: [sb, qs]
+    permission: quickshulker
